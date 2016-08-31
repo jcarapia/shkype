@@ -1,13 +1,22 @@
-{	"name": "heroku-tutorial",
-	"version": "0.0.0",
-	"description": "heroku deployment tutorial",
-	"main": "server.js",
-  "scripts": {
-    "start": "node server.js"
+{
+  "name": "introToWebRTC",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+  "node": "5.9.1"
   },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
   "author": "",
+  "license": "ISC",
   "dependencies": {
+    "coffee-script": "^1.10.0",
+    "connect": "^3.4.1",
     "ejs": "^2.5.1",
-    "express": "^4.14.0"
+    "express": "^4.14.0",
+    "express.io": "^1.1.13"
   }
 }
