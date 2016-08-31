@@ -1,0 +1,13 @@
+{	"name": "heroku-tutorial",
+	"version": "0.0.0",
+	"description": "heroku deployment tutorial",
+	"main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "",
+  "dependencies": {
+    "ejs": "^2.5.1",
+    "express": "^4.14.0"
+  }
+}
